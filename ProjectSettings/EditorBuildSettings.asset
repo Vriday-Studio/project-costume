@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/KebayaKala.unity
+    guid: fe23e0dcc7c817a47bd2c2f3af0af76c
   m_configObjects: {}
