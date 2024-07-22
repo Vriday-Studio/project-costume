@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CostumeController : MonoBehaviour, IInteractable
 {
+    [SerializeField] private TextMeshProUGUI costumeNameUI;
     [SerializeField] private List<Costumes> outfits = new();
 
     private int currentOutfitIndex = 0;
@@ -40,6 +42,7 @@ public class CostumeController : MonoBehaviour, IInteractable
         {
             costume.gameObject.SetActive(true);
         }
+        costumeNameUI.text = outfits[currentOutfitIndex].costumeName;
     }
 
     public void ResetCostume() {

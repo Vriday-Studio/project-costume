@@ -6,5 +6,6 @@ using UnityEngine;
 [Serializable]
 public class Costumes
 {
+    public string costumeName;
     public List<SkinnedMeshRenderer> costumes;
 }
