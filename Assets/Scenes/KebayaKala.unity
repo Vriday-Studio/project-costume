@@ -1272,7 +1272,7 @@ MonoBehaviour:
   qrMenu: {fileID: 1225365474}
   doneMenu: {fileID: 539913562}
   costumeController: {fileID: 1813776624}
-  maxIdleTime: 60
+  maxIdleTime: 10
 --- !u!1 &391330683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3973,9 +3973,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089700984}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1089700987
 MonoBehaviour:
@@ -5808,7 +5808,10 @@ MonoBehaviour:
   photoUIToHide:
   - {fileID: 323692422}
   - {fileID: 850115477}
+  - {fileID: 7908236694075165791}
+  - {fileID: 9173097404901047739}
   countdownText: {fileID: 405060075}
+  photoTimer: 3.5
 --- !u!114 &1813776624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5827,13 +5830,13 @@ MonoBehaviour:
     costumes:
     - {fileID: 7235231796807455002}
     - {fileID: 3723282714072475008}
-  - costumeName: Kebaya Kutu Baru dan Selendang Sifon dengan Wastra Tapis Lampung
+  - costumeName: 'Kebaya Encim Bordir Halus dengan Wastra Batik Betawi '
     costumes:
     - {fileID: 3384254526190859857}
-  - costumeName: Kebaya Encim Bordir Halus dengan Wastra Batik Betawi
+  - costumeName: 'Kebaya Panjang Beludru dengan Wastra Batik Solo '
     costumes:
     - {fileID: 1395274132262918616}
-  - costumeName: Kebaya Panjang Beludru dengan Wastra Batik Solo
+  - costumeName: 'Kebaya Kutu Baru dan Selendang Sifon dengan Wastra Tapis Lampung '
     costumes:
     - {fileID: 57879766435816030}
   - costumeName: Kebaya Kutu Baru dan Selendang dengan Wastra Tapis Lampung
@@ -6797,7 +6800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2114497208
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25816,6 +25819,8 @@ GameObject:
   - component: {fileID: 9173097404901047736}
   - component: {fileID: 5545353082555273465}
   - component: {fileID: 9173097404901047737}
+  - component: {fileID: 9173097404901047739}
+  - component: {fileID: 9173097404901047738}
   m_Layer: 5
   m_Name: HandIcon_R
   m_TagString: Untagged
@@ -31036,6 +31041,8 @@ GameObject:
   - component: {fileID: 6336215875144138412}
   - component: {fileID: 7230155947087500269}
   - component: {fileID: 7908236694075165789}
+  - component: {fileID: 7908236694075165791}
+  - component: {fileID: 7908236694075165790}
   m_Layer: 5
   m_Name: HandIcon_L
   m_TagString: Untagged
@@ -34107,6 +34114,35 @@ MonoBehaviour:
   baseHandRect: {fileID: 7908236694075165788}
   parentRect: {fileID: 1813776622}
   minInteractTime: 0.1
+--- !u!225 &7908236694075165790
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7073960541466942351}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &7908236694075165791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7073960541466942351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b3bede3f81e994c82f958fa5fe0131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 7908236694075165790}
+  onEnableDirection: 0
+  onDisableDirection: 0
+  animationDuration: 0.65
+  startAnimationPositionOffset: 650
 --- !u!4 &7910339190224800343
 Transform:
   m_ObjectHideFlags: 0
@@ -38215,6 +38251,35 @@ MonoBehaviour:
   baseHandRect: {fileID: 4979876067973549896}
   parentRect: {fileID: 1813776622}
   minInteractTime: 0.1
+--- !u!225 &9173097404901047738
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5370648227173587099}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &9173097404901047739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5370648227173587099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b3bede3f81e994c82f958fa5fe0131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 9173097404901047738}
+  onEnableDirection: 0
+  onDisableDirection: 0
+  animationDuration: 0.65
+  startAnimationPositionOffset: 650
 --- !u!1 &9173915801172042380
 GameObject:
   m_ObjectHideFlags: 0

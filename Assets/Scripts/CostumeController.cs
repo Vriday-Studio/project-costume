@@ -59,6 +59,7 @@ public class CostumeController : MonoBehaviour, IInteractable
         {
             costume.gameObject.SetActive(true);
         }
+        costumeNameUI.text = outfits[currentOutfitIndex].costumeName;
     }
 
 }

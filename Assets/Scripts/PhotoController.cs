@@ -21,7 +21,8 @@ public class PhotoController : MonoBehaviour
     [Header("Photo UI To Remove")]
     [SerializeField] private List<CanvasGroupElement> photoUIToHide;
     [SerializeField] private TextMeshProUGUI countdownText;
-    private float currentTimer = 3.5f;
+    [SerializeField] private float photoTimer = 3.5f;
+    private float currentPhotoTimer = 3.5f;
 
     private bool isOnCountdown = false;
     private bool isCapturingImage = false;
@@ -39,12 +40,12 @@ public class PhotoController : MonoBehaviour
     private void FixedUpdate()  {
         if(!isOnCountdown) return;
 
-        if(currentTimer <= 0f) {        
+        if(currentPhotoTimer <= 0f) {        
             StartCoroutine(InitiateTakePicture());
         }
 
-        currentTimer -= Time.deltaTime;
-        countdownText.text = currentTimer.ToString("F0");
+        currentPhotoTimer -= Time.deltaTime;
+        countdownText.text = currentPhotoTimer.ToString("F0");
     }
 
 
@@ -88,6 +89,8 @@ public class PhotoController : MonoBehaviour
 
         menuUI.DisableElement();
         cameraUI.EnableElement();
+
+        currentPhotoTimer = photoTimer;
         
         isCapturingImage = false;
     }
