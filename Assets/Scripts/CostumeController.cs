@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CostumeController : MonoBehaviour, IInteractable
+public class CostumeController : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI costumeNameUI;
     [SerializeField] private List<Costumes> outfits = new();
@@ -22,11 +22,6 @@ public class CostumeController : MonoBehaviour, IInteractable
         
     }
 
-    public void Interact()
-    {
-        NextCostume();
-    }
-
     public void NextCostume() {
         foreach (var costume in outfits[currentOutfitIndex].costumes)
         {
@@ -37,6 +32,24 @@ public class CostumeController : MonoBehaviour, IInteractable
         
         if(currentOutfitIndex >= outfits.Count)
             currentOutfitIndex = 0;
+        
+        foreach (var costume in outfits[currentOutfitIndex].costumes)
+        {
+            costume.gameObject.SetActive(true);
+        }
+        costumeNameUI.text = outfits[currentOutfitIndex].costumeName;
+    }
+    
+    public void PreviousCostume() {
+        foreach (var costume in outfits[currentOutfitIndex].costumes)
+        {
+            costume.gameObject.SetActive(false);
+        }
+
+        currentOutfitIndex--;
+        
+        if(currentOutfitIndex < 0)
+            currentOutfitIndex = outfits.Count - 1;
         
         foreach (var costume in outfits[currentOutfitIndex].costumes)
         {
