@@ -27,17 +27,14 @@ public class NuitrackAvatarHandler : MonoBehaviour
         UserData user = NuitrackManager.Users.Current;
         
         if(user == null) {
-            Debug.Log("User not found.");
         }
 
         if(user != null) {
             currentIdleTimer = 0f;
             isIdle = false;
-            Debug.Log("User found.");
         }
 
         if(!isIdle && user == null) {
-            Debug.Log("User lost.");
             currentIdleTimer += Time.deltaTime;
             if(currentIdleTimer >= maxIdleTime) {
                 startMenu.EnableElement();
@@ -49,7 +46,6 @@ public class NuitrackAvatarHandler : MonoBehaviour
 
                 isIdle = true;
                 currentIdleTimer = 0f;
-                Debug.Log("User lost more than timer returning back.");
             }
         }
     }
