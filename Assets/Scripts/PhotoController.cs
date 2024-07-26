@@ -66,7 +66,9 @@ public class PhotoController : MonoBehaviour
         isOnCountdown = false;
         countdownText.gameObject.SetActive(false);
 
-        filePath = "Assets/Screenshots/";
+        filePath = Application.dataPath;
+        var foldername = "Assets/Screenshots/";
+        filePath = Path.Join(filePath, foldername);
         if(!Directory.Exists(filePath))
             Directory.CreateDirectory(filePath);
         
