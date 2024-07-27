@@ -20,6 +20,7 @@ public class PhotoController : MonoBehaviour
 
     [Header("Photo UI To Remove")]
     [SerializeField] private List<CanvasGroupElement> photoUIToHide;
+    [SerializeField] private TextMeshProUGUI countdownPoseText;
     [SerializeField] private TextMeshProUGUI countdownText;
     [SerializeField] private float photoTimer = 3.5f;
     private float currentPhotoTimer = 3.5f;
@@ -65,6 +66,7 @@ public class PhotoController : MonoBehaviour
     public IEnumerator InitiateTakePicture() {
         isOnCountdown = false;
         countdownText.gameObject.SetActive(false);
+        countdownPoseText.gameObject.SetActive(false);
 
         filePath = Directory.GetCurrentDirectory();
         var foldername = "/Assets/Screenshots/";
