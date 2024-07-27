@@ -55,6 +55,7 @@ public class PhotoController : MonoBehaviour
             return;
         
         countdownText.gameObject.SetActive(true);
+        countdownPoseText.gameObject.SetActive(true);
 
         isCapturingImage = true;
         isOnCountdown = true;
