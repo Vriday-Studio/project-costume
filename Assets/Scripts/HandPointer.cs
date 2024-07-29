@@ -23,6 +23,9 @@ public class HandPointer : MonoBehaviour
     [SerializeField] RectTransform parentRect;
     [SerializeField] Image loadingRect;
     float currentInteractTime = 0f;
+    IInteractable currentInterractable;
+    float currentInterractableIdleTimer = 0f;
+    float maxCurrentInterractableIdleTimer = 2f;
 
     bool active = false;
 
@@ -64,18 +67,40 @@ public class HandPointer : MonoBehaviour
                 List<RaycastResult> raycastResults = new();
                 m_Raycaster.Raycast(m_PointerEventData, raycastResults);
 
-                if(raycastResults.Count <= 0) return;
+                if(currentInterractable == null) {
+                    if(loadingRect.fillAmount <= 0f) return;
+                    
+                    currentInterractableIdleTimer += Time.deltaTime;
+                    if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
+                        currentInterractableIdleTimer = 0f;
+                        loadingRect.fillAmount = 0f;
+                    }
+                }
+
+                if(raycastResults.Count <= 0) {
+                    if(loadingRect.fillAmount <= 0f) return;
+
+                    currentInterractableIdleTimer += Time.deltaTime;
+                    if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
+                        currentInterractable = null;
+                        currentInterractableIdleTimer = 0f;
+                        loadingRect.fillAmount = 0f;
+                    }
+                    return;
+                }
 
                 if(raycastResults[0].gameObject.TryGetComponent<IInteractable>(out var interactable)) {
-                    active  = true;
+                    currentInterractable = interactable;
+                    active = true;
                     currentInteractTime += Time.deltaTime;
                     loadingRect.fillAmount = currentInteractTime / interactable.InteractTime(); 
 
-                    if(currentInteractTime >= interactable.InteractTime()) {
+                    if(currentInteractTime >= currentInterractable.InteractTime()) {
                         currentInteractTime = 0f;
                         loadingRect.fillAmount = 0f;
                         interactable?.Interact();
                         active = false;
+                        currentInterractable = null;
                     }
                 }
 
