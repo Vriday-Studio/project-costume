@@ -21,7 +21,7 @@ public class HandPointer : MonoBehaviour
     [SerializeField] EventSystem m_EventSystem;
     [SerializeField] RectTransform baseHandRect;
     [SerializeField] RectTransform parentRect;
-    [SerializeField, Range(0, 10)] float minInteractTime = 0.5f;
+    [SerializeField] Image loadingRect;
     float currentInteractTime = 0f;
 
     bool active = false;
@@ -37,6 +37,10 @@ public class HandPointer : MonoBehaviour
     public bool Press
     {
         get; private set;
+    }
+
+    private void Start() {
+        loadingRect.fillAmount = 0f;
     }
 
     void Update()
@@ -65,8 +69,11 @@ public class HandPointer : MonoBehaviour
                 if(raycastResults[0].gameObject.TryGetComponent<IInteractable>(out var interactable)) {
                     active  = true;
                     currentInteractTime += Time.deltaTime;
-                    if(currentInteractTime >= minInteractTime) {
+                    loadingRect.fillAmount = currentInteractTime / interactable.InteractTime(); 
+
+                    if(currentInteractTime >= interactable.InteractTime()) {
                         currentInteractTime = 0f;
+                        loadingRect.fillAmount = 0f;
                         interactable?.Interact();
                         active = false;
                     }

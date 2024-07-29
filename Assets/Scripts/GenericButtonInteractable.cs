@@ -7,6 +7,7 @@ public class GenericButtonInteractable : MonoBehaviour, IInteractable
 {
     public UnityEvent onClick;
     public float buttonCooldown = 0.2f;
+    public float InteractTime() => buttonCooldown;
 
     private bool isOnCooldown = false;
 
@@ -18,6 +19,7 @@ public class GenericButtonInteractable : MonoBehaviour, IInteractable
         isOnCooldown = true;
         StartCoroutine(StartCooldown());
     }
+
 
     private IEnumerator StartCooldown() {
         yield return new WaitForSeconds(buttonCooldown);
