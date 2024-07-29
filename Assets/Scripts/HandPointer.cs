@@ -71,8 +71,8 @@ public class HandPointer : MonoBehaviour
                     if(loadingRect.fillAmount <= 0f) return;
 
                     currentInterractableIdleTimer += Time.deltaTime;
+                    currentInterractable = null;
                     if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
-                        currentInterractable = null;
                         currentInterractableIdleTimer = 0f;
                         loadingRect.fillAmount = 0f;
                     }
@@ -105,8 +105,17 @@ public class HandPointer : MonoBehaviour
                 }
 
             }
-            
+            else {
+                if(loadingRect.fillAmount <= 0f) return;
+                
+                currentInterractableIdleTimer += Time.deltaTime;
+                if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
+                    currentInterractableIdleTimer = 0f;
+                    loadingRect.fillAmount = 0f;
+                }
+            }
             Press = Press && active;
+            
         }
     }
 }
