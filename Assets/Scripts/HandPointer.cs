@@ -74,6 +74,7 @@ public class HandPointer : MonoBehaviour
                     currentInterractable = null;
                     if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
                         currentInterractableIdleTimer = 0f;
+                        currentInteractTime = 0f;
                         loadingRect.fillAmount = 0f;
                     }
                     return;
@@ -100,6 +101,7 @@ public class HandPointer : MonoBehaviour
                     currentInterractableIdleTimer += Time.deltaTime;
                     if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
                         currentInterractableIdleTimer = 0f;
+                        currentInteractTime = 0f;
                         loadingRect.fillAmount = 0f;
                     }
                 }
