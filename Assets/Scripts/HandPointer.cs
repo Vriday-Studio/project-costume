@@ -67,16 +67,6 @@ public class HandPointer : MonoBehaviour
                 List<RaycastResult> raycastResults = new();
                 m_Raycaster.Raycast(m_PointerEventData, raycastResults);
 
-                if(currentInterractable == null) {
-                    if(loadingRect.fillAmount <= 0f) return;
-                    
-                    currentInterractableIdleTimer += Time.deltaTime;
-                    if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
-                        currentInterractableIdleTimer = 0f;
-                        loadingRect.fillAmount = 0f;
-                    }
-                }
-
                 if(raycastResults.Count <= 0) {
                     if(loadingRect.fillAmount <= 0f) return;
 
@@ -101,6 +91,16 @@ public class HandPointer : MonoBehaviour
                         interactable?.Interact();
                         active = false;
                         currentInterractable = null;
+                    }
+                }
+                
+                if(currentInterractable == null) {
+                    if(loadingRect.fillAmount <= 0f) return;
+                    
+                    currentInterractableIdleTimer += Time.deltaTime;
+                    if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
+                        currentInterractableIdleTimer = 0f;
+                        loadingRect.fillAmount = 0f;
                     }
                 }
 
