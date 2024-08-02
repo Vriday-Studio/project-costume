@@ -1489,7 +1489,7 @@ MonoBehaviour:
   useFaceTracking: 0
   depth2ColorRegistration: 1
   mirror: 0
-  sensorRotation: 90
+  sensorRotation: 270
   useFileRecord: 0
   pathToFileRecord: f:/repo/test.oni
   asyncInit: 0
