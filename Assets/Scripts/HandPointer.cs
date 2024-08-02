@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using NuitrackSDK;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -22,6 +23,8 @@ public class HandPointer : MonoBehaviour
     [SerializeField] RectTransform baseHandRect;
     [SerializeField] RectTransform parentRect;
     [SerializeField] Image loadingRect;
+    [SerializeField] Vector2 offsetPosition;
+    [SerializeField] float handSpeed = 0.5f;
     float currentInteractTime = 0f;
     IInteractable currentInterractable;
     float currentInterractableIdleTimer = 0f;
@@ -61,13 +64,13 @@ public class HandPointer : MonoBehaviour
                 m_PointerEventData = new PointerEventData(m_EventSystem);
 
                 Vector3 lastPosition = baseHandRect.position;
-                baseHandRect.anchoredPosition = handContent.AnchoredPosition(parentRect.rect, baseHandRect);
-                m_PointerEventData.position = this.transform.position;
+                baseHandRect.anchoredPosition = (handContent.AnchoredPosition(parentRect.rect, baseHandRect) * handSpeed) + offsetPosition;
+                m_PointerEventData.position = baseHandRect.position;
 
                 List<RaycastResult> raycastResults = new();
                 m_Raycaster.Raycast(m_PointerEventData, raycastResults);
 
-                if(raycastResults.Count <= 0) {
+                if(raycastResults.Count <= 1 || !raycastResults.Any()) {
                     if(loadingRect.fillAmount <= 0f) return;
 
                     currentInterractableIdleTimer += Time.deltaTime;
@@ -113,6 +116,7 @@ public class HandPointer : MonoBehaviour
                 currentInterractableIdleTimer += Time.deltaTime;
                 if(currentInterractableIdleTimer >= maxCurrentInterractableIdleTimer) {
                     currentInterractableIdleTimer = 0f;
+                    currentInteractTime = 0f;
                     loadingRect.fillAmount = 0f;
                 }
             }

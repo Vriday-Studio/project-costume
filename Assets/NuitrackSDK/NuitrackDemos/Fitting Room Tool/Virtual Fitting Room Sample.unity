@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4410453, g: 0.48979086, b: 0.5698747, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -981,6 +981,10 @@ PrefabInstance:
     - target: {fileID: 11436578, guid: e999ace05c586574fa1b964016f28531, type: 3}
       propertyPath: useNuitrackAi
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436578, guid: e999ace05c586574fa1b964016f28531, type: 3}
+      propertyPath: sensorRotation
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 11436578, guid: e999ace05c586574fa1b964016f28531, type: 3}
       propertyPath: pathToFileRecord
@@ -2005,6 +2009,46 @@ PrefabInstance:
       propertyPath: m_CapsuleColliders.Array.data[2]
       value: 
       objectReference: {fileID: 1367617671}
+    - target: {fileID: 117619388839425572, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04968664
+      objectReference: {fileID: 0}
+    - target: {fileID: 117619388839425572, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.046290137
+      objectReference: {fileID: 0}
+    - target: {fileID: 176071612467166738, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04265325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916058457101050015, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000040978215
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916058457101050015, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.23237087
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122249357789972942, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09776879
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122249357789972942, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.020447409
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833903411388962057, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11021899
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833903411388962057, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.020916246
+      objectReference: {fileID: 0}
+    - target: {fileID: 5879254744985584426, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01243366
+      objectReference: {fileID: 0}
     - target: {fileID: 7256376709799130166, guid: c6946143830681d4f978fd22b411e8df, type: 3}
       propertyPath: neck.targetMannequinBone
       value: 
@@ -2084,6 +2128,14 @@ PrefabInstance:
     - target: {fileID: 8068203712269446797, guid: c6946143830681d4f978fd22b411e8df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438429945795263370, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000032130632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438429945795263370, guid: c6946143830681d4f978fd22b411e8df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.23246433
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3062,7 +3114,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 640, y: 946.8}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -3204,6 +3256,10 @@ PrefabInstance:
     - target: {fileID: 3560495060105013047, guid: 046de10bb9b5af14092c59fa3c1e857d, type: 3}
       propertyPath: m_Name
       value: Mannequin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560495060105013047, guid: 046de10bb9b5af14092c59fa3c1e857d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4189117071221063053, guid: 046de10bb9b5af14092c59fa3c1e857d, type: 3}
       propertyPath: m_RootOrder
