@@ -28,7 +28,7 @@ public class HandPointer : MonoBehaviour
     float currentInteractTime = 0f;
     IInteractable currentInterractable;
     float currentInterractableIdleTimer = 0f;
-    float maxCurrentInterractableIdleTimer = 2f;
+    [SerializeField] float maxCurrentInterractableIdleTimer = 2f;
 
     bool active = false;
 
