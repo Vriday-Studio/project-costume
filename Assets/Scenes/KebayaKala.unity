@@ -7291,6 +7291,7 @@ MonoBehaviour:
   - {fileID: 850115477}
   - {fileID: 919295475}
   - {fileID: 9173097404901047739}
+  - {fileID: 7908236694075165791}
   countdownPoseText: {fileID: 2144896218}
   countdownText: {fileID: 405060075}
   photoTimer: 3.5
