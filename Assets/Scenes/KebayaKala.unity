@@ -1319,9 +1319,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   buttonCooldown: 2
-  buttonImage: {fileID: 0}
-  normalSprite: {fileID: 0}
-  pressedSprite: {fileID: 0}
+  buttonImage: {fileID: 323692419}
+  normalSprite: {fileID: 21300000, guid: 7a2a91bd975e00b41a59b07fd37fdfec, type: 3}
+  pressedSprite: {fileID: 21300000, guid: 7a2a91bd975e00b41a59b07fd37fdfec, type: 3}
 --- !u!114 &323692422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3501,9 +3501,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   buttonCooldown: 1
-  buttonImage: {fileID: 0}
-  normalSprite: {fileID: 0}
-  pressedSprite: {fileID: 0}
+  buttonImage: {fileID: 850115474}
+  normalSprite: {fileID: 21300000, guid: 3c6ee78c3f64ffd43a22693a7a9bd007, type: 3}
+  pressedSprite: {fileID: 21300000, guid: 3c6ee78c3f64ffd43a22693a7a9bd007, type: 3}
 --- !u!114 &850115477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3915,9 +3915,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   buttonCooldown: 1
-  buttonImage: {fileID: 0}
-  normalSprite: {fileID: 0}
-  pressedSprite: {fileID: 0}
+  buttonImage: {fileID: 919295479}
+  normalSprite: {fileID: 21300000, guid: 3c6ee78c3f64ffd43a22693a7a9bd007, type: 3}
+  pressedSprite: {fileID: 21300000, guid: 3c6ee78c3f64ffd43a22693a7a9bd007, type: 3}
 --- !u!114 &919295478
 MonoBehaviour:
   m_ObjectHideFlags: 0
