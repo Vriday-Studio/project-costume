@@ -1492,7 +1492,7 @@ MonoBehaviour:
   useFaceTracking: 0
   depth2ColorRegistration: 1
   mirror: 1
-  sensorRotation: 90
+  sensorRotation: 270
   useFileRecord: 0
   pathToFileRecord: f:/repo/test.oni
   asyncInit: 0
@@ -1632,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -750}
+  m_AnchoredPosition: {x: 0, y: -540}
   m_SizeDelta: {x: 800, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391330685
@@ -1756,7 +1756,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonCooldown: 0.2
+  buttonCooldown: 1
   buttonImage: {fileID: 391330686}
   normalSprite: {fileID: 21300000, guid: 3f2c40775b490b14b8bd446bd69b5e7d, type: 3}
   pressedSprite: {fileID: 21300000, guid: a26f27b4367dc8b4daacdbb3c7b64a17, type: 3}
@@ -3729,7 +3729,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonCooldown: 0.2
+  buttonCooldown: 1
   buttonImage: {fileID: 901222795}
   normalSprite: {fileID: 21300000, guid: 3f2c40775b490b14b8bd446bd69b5e7d, type: 3}
   pressedSprite: {fileID: 21300000, guid: a26f27b4367dc8b4daacdbb3c7b64a17, type: 3}
@@ -4546,7 +4546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -520}
+  m_AnchoredPosition: {x: 0, y: -725}
   m_SizeDelta: {x: 750, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086645472
@@ -5210,7 +5210,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonCooldown: 0.2
+  buttonCooldown: 1
   buttonImage: {fileID: 1200081688}
   normalSprite: {fileID: 21300000, guid: 3f2c40775b490b14b8bd446bd69b5e7d, type: 3}
   pressedSprite: {fileID: 21300000, guid: a26f27b4367dc8b4daacdbb3c7b64a17, type: 3}
@@ -7363,7 +7363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285, y: -450}
+  m_AnchoredPosition: {x: -285, y: -500}
   m_SizeDelta: {x: 350, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856471835
@@ -7487,7 +7487,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonCooldown: 0.2
+  buttonCooldown: 1
   buttonImage: {fileID: 1856471836}
   normalSprite: {fileID: 21300000, guid: 3f2c40775b490b14b8bd446bd69b5e7d, type: 3}
   pressedSprite: {fileID: 21300000, guid: a26f27b4367dc8b4daacdbb3c7b64a17, type: 3}
@@ -8106,7 +8106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285, y: -450}
+  m_AnchoredPosition: {x: 285, y: -500}
   m_SizeDelta: {x: 350, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039495939
@@ -8218,7 +8218,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  buttonCooldown: 0.2
+  buttonCooldown: 1
   buttonImage: {fileID: 2039495940}
   normalSprite: {fileID: 21300000, guid: 3f2c40775b490b14b8bd446bd69b5e7d, type: 3}
   pressedSprite: {fileID: 21300000, guid: a26f27b4367dc8b4daacdbb3c7b64a17, type: 3}
