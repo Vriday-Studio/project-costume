@@ -5701,9 +5701,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330598897}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1330598900
 MonoBehaviour:
@@ -7254,12 +7254,12 @@ RectTransform:
   m_Children:
   - {fileID: 1016703650}
   - {fileID: 1324498338}
-  - {fileID: 1330598898}
   - {fileID: 1089700985}
   - {fileID: 1225365472}
   - {fileID: 539913561}
   - {fileID: 7908236694075165788}
   - {fileID: 4979876067973549896}
+  - {fileID: 1330598898}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
