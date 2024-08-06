@@ -1,0 +1,1010 @@
+fileFormatVersion: 2
+guid: 10e1258da84b03149b075960202690ab
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clothes02
+    second: {fileID: 2100000, guid: a9ca99e58bf1b9f4280c8e006d6d4cd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hand
+    second: {fileID: 2100000, guid: 9718fdc4dd12c794e97ea4755639ed4a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: nuitrackrig1:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: nuitrackrig1:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: clothes02d(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: clothes02d(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000014106499, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:Hips
+      parentName: Armature
+      position: {x: 0.000000228882, y: 0.99754363, z: 0.03007882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftUpLeg
+      parentName: nuitrackrig1:Hips
+      position: {x: -0.080781974, y: -0.054023743, z: -0.005358667}
+      rotation: {x: 0.0014093341, y: -0.031604487, z: 0.99854124, w: 0.043756172}
+      scale: {x: 1.000022, y: 1, z: 1.0000113}
+    - name: nuitrackrig1:LeftLeg
+      parentName: nuitrackrig1:LeftUpLeg
+      position: {x: -0.000000007500639, y: 0.42789862, z: 5.523907e-10}
+      rotation: {x: -0.002659501, y: 0.000014404121, z: 0.003927475, w: 0.9999888}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:LeftFoot
+      parentName: nuitrackrig1:LeftLeg
+      position: {x: 0.00000006579794, y: 0.42173746, z: 0.00000007298309}
+      rotation: {x: 0.49511996, y: 0.014724412, z: -0.008395309, w: 0.86865926}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: nuitrackrig1:LeftToeBase
+      parentName: nuitrackrig1:LeftFoot
+      position: {x: -0.000000042952596, y: 0.16181995, z: -0.00000003993511}
+      rotation: {x: 0.29012153, y: 0.05651548, z: -0.017164068, w: 0.9551654}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: nuitrackrig1:LeftToe_End
+      parentName: nuitrackrig1:LeftToeBase
+      position: {x: -0.000000010514632, y: 0.062057223, z: 4.4703483e-10}
+      rotation: {x: 0.000000040163286, y: -0.0000021054439, z: 0.000000032530806, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:LeftToe_End_end
+      parentName: nuitrackrig1:LeftToe_End
+      position: {x: 0.000000003762543, y: 0.062058043, z: -4.4703483e-10}
+      rotation: {x: 0.0000000010768417, y: 0.00000015151454, z: -0.00000016653212, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:LeftToe_End_end_end
+      parentName: nuitrackrig1:LeftToe_End_end
+      position: {x: -0, y: 0.062058926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightUpLeg
+      parentName: nuitrackrig1:Hips
+      position: {x: 0.08078202, y: -0.05402405, z: -0.007517743}
+      rotation: {x: -0.0012771392, y: -0.028903238, z: 0.9986224, w: -0.043774582}
+      scale: {x: 1.0000209, y: 0.99999994, z: 1.0000091}
+    - name: nuitrackrig1:RightLeg
+      parentName: nuitrackrig1:RightUpLeg
+      position: {x: -0.000000019556609, y: 0.42775893, z: 0.0000000050489324}
+      rotation: {x: -0.07482866, y: 0.001749347, z: -0.011383361, w: 0.9971299}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: nuitrackrig1:RightFoot
+      parentName: nuitrackrig1:RightLeg
+      position: {x: 0.0000000057183205, y: 0.42179728, z: -9.3132255e-12}
+      rotation: {x: 0.49743843, y: -0.01441359, z: 0.008265909, w: 0.86734015}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: nuitrackrig1:RightToeBase
+      parentName: nuitrackrig1:RightFoot
+      position: {x: 0.0000001174584, y: 0.16260323, z: 0.00000010371208}
+      rotation: {x: 0.28853, y: -0.057365336, z: 0.017319517, w: 0.9555939}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightToe_End
+      parentName: nuitrackrig1:RightToeBase
+      position: {x: -0.0000000032968819, y: 0.061799474, z: 8.1956386e-10}
+      rotation: {x: 0.068655506, y: 0.0006773547, z: -0.0056441072, w: 0.9976242}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightToe_End_end
+      parentName: nuitrackrig1:RightToe_End
+      position: {x: -0.00000001952052, y: 0.061799545, z: 7.45058e-10}
+      rotation: {x: 0.00000001915032, y: -0.00000031580566, z: 0.00000032125536, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightToe_End_end_end
+      parentName: nuitrackrig1:RightToe_End_end
+      position: {x: -0, y: 0.06180026, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:Spine
+      parentName: nuitrackrig1:Hips
+      position: {x: -0, y: 0.09717216, z: -0.011802066}
+      rotation: {x: -0.060396228, y: 0, z: -0, w: 0.9981745}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:Spine1
+      parentName: nuitrackrig1:Spine
+      position: {x: -0, y: 0.11420155, z: 0.00000018060207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:Spine2
+      parentName: nuitrackrig1:Spine1
+      position: {x: -0, y: 0.13051529, z: -0.00000004053116}
+      rotation: {x: -0.02635484, y: 0, z: -0, w: 0.9996527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftShoulder
+      parentName: nuitrackrig1:Spine2
+      position: {x: -0.000000228882, y: 0.10359565, z: 0.00048555134}
+      rotation: {x: 0.51817924, y: -0.5045405, z: 0.50111747, w: 0.4751951}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: nuitrackrig1:LeftArm
+      parentName: nuitrackrig1:LeftShoulder
+      position: {x: 0.00000090524554, y: 0.18701164, z: 0.0000006300211}
+      rotation: {x: 0.008050352, y: -0.0055024177, z: 0.022745147, w: 0.99969375}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: nuitrackrig1:LeftForeArm
+      parentName: nuitrackrig1:LeftArm
+      position: {x: -0.0000006437302, y: 0.2556076, z: 0.00000029802322}
+      rotation: {x: -0.049151465, y: 0.0027802924, z: -0.05640298, w: 0.99719363}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: nuitrackrig1:LeftHand
+      parentName: nuitrackrig1:LeftForeArm
+      position: {x: 0.00000029802322, y: 0.23404166, z: 0.00000025212765}
+      rotation: {x: 0.053676926, y: -0.11436327, z: -0.021736467, w: 0.99174964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandIndex1
+      parentName: nuitrackrig1:LeftHand
+      position: {x: 0.03484247, y: 0.11757842, z: 0.001131419}
+      rotation: {x: 0.018900255, y: -0.0011085751, z: -0.058524754, w: 0.9981064}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:LeftHandIndex2
+      parentName: nuitrackrig1:LeftHandIndex1
+      position: {x: -0.00023110151, y: 0.03298405, z: -0.0000007909536}
+      rotation: {x: 0.040436037, y: -0.000048959868, z: 0.0015516579, w: 0.999181}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: nuitrackrig1:LeftHandIndex3
+      parentName: nuitrackrig1:LeftHandIndex2
+      position: {x: 0.00006813049, y: 0.030810604, z: 0.0000005096197}
+      rotation: {x: 0.025116628, y: -0.00000016210126, z: -0.00000012297339, w: 0.9996845}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: nuitrackrig1:LeftHandIndex4
+      parentName: nuitrackrig1:LeftHandIndex3
+      position: {x: 0.00016294002, y: 0.027120762, z: -0.0000006100535}
+      rotation: {x: -0.000000020489097, y: 9.313226e-10, z: 0.000000016298145, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandIndex4_end
+      parentName: nuitrackrig1:LeftHandIndex4
+      position: {x: 0.000000009536743, y: 0.027121138, z: 0.0000000461936}
+      rotation: {x: -0.000000015366822, y: 0.00000004656613, z: 0.000000027939677, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandIndex4_end_end
+      parentName: nuitrackrig1:LeftHandIndex4_end
+      position: {x: -0, y: 0.027121268, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandMiddle1
+      parentName: nuitrackrig1:LeftHand
+      position: {x: 0.01029329, y: 0.123471715, z: -0.003157519}
+      rotation: {x: 0.045832586, y: 0.000067321984, z: 0.0014715793, w: 0.99894804}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: nuitrackrig1:LeftHandMiddle2
+      parentName: nuitrackrig1:LeftHandMiddle1
+      position: {x: -0.00009940028, y: 0.03432115, z: -0.00000042453408}
+      rotation: {x: 0.04092613, y: 0.000001756307, z: 0.00067545846, w: 0.999162}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandMiddle3
+      parentName: nuitrackrig1:LeftHandMiddle2
+      position: {x: 0.000099678036, y: 0.031609453, z: -0.00000076681374}
+      rotation: {x: -0.027591787, y: -0.0000000139751615, z: 0.000000045652193, w: 0.9996193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandMiddle4
+      parentName: nuitrackrig1:LeftHandMiddle3
+      position: {x: -0.00000038444995, y: 0.028763758, z: 0.00000018149613}
+      rotation: {x: -0.000000010011718, y: -0.00000007962808, z: -0.0000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandMiddle4_end
+      parentName: nuitrackrig1:LeftHandMiddle4
+      position: {x: 0.000000017285346, y: 0.0287638, z: -0.00000006198883}
+      rotation: {x: 0.000000010011719, y: 0.0000000032596295, z: -0.0000000041909516, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandMiddle4_end_end
+      parentName: nuitrackrig1:LeftHandMiddle4_end
+      position: {x: -0, y: 0.028763738, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandPinky1
+      parentName: nuitrackrig1:LeftHand
+      position: {x: -0.032468162, y: 0.11101917, z: -0.0011271947}
+      rotation: {x: 0.047403544, y: 0.006470955, z: 0.00995666, w: 0.9988053}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: nuitrackrig1:LeftHandPinky2
+      parentName: nuitrackrig1:LeftHandPinky1
+      position: {x: -0.00008419037, y: 0.027346699, z: -0.00000081837175}
+      rotation: {x: 0.039734352, y: 0.00000019520803, z: -0.00000034532775, w: 0.9992103}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandPinky3
+      parentName: nuitrackrig1:LeftHandPinky2
+      position: {x: 0.000029084682, y: 0.021938808, z: -0.0000012028217}
+      rotation: {x: 0.013470902, y: -0.0000003907253, z: -0.0000001250414, w: 0.9999093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandPinky4
+      parentName: nuitrackrig1:LeftHandPinky3
+      position: {x: 0.000055123568, y: 0.01975532, z: -0.00000027477742}
+      rotation: {x: -0.0000012941891, y: 0.0000000547152, z: 0.00000018556602, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandPinky4_end
+      parentName: nuitrackrig1:LeftHandPinky4
+      position: {x: 0.0000000333786, y: 0.019755565, z: 0.00000014007091}
+      rotation: {x: -0.000000044936314, y: 0.000000007101335, z: 0.0000000013969839, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandPinky4_end_end
+      parentName: nuitrackrig1:LeftHandPinky4_end
+      position: {x: -0, y: 0.01975559, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandRing1
+      parentName: nuitrackrig1:LeftHand
+      position: {x: -0.012668025, y: 0.12505855, z: -0.0027709124}
+      rotation: {x: 0.059657816, y: 0.0052933544, z: -0.006420821, w: 0.99818426}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandRing2
+      parentName: nuitrackrig1:LeftHandRing1
+      position: {x: 0.00006585121, y: 0.027261265, z: 0.0000004795194}
+      rotation: {x: -0.03749581, y: -0.00000028961213, z: -0.000000021901483, w: 0.9992968}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: nuitrackrig1:LeftHandRing3
+      parentName: nuitrackrig1:LeftHandRing2
+      position: {x: -0.000034120083, y: 0.026202938, z: -0.00000026524066}
+      rotation: {x: -0.0021432738, y: -0.000000035856004, z: -0.000000292436, w: 0.99999774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandRing4
+      parentName: nuitrackrig1:LeftHandRing3
+      position: {x: -0.000031661988, y: 0.022268904, z: 0.00000013440847}
+      rotation: {x: -0.0000007664204, y: -0.00000005937182, z: 0.000000047031797, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandRing4_end
+      parentName: nuitrackrig1:LeftHandRing4
+      position: {x: -0.0000000023841857, y: 0.022269027, z: 0.0000001206994}
+      rotation: {x: 0.0000000034342515, y: 0.0000000027939677, z: 0.0000000032596288, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: nuitrackrig1:LeftHandRing4_end_end
+      parentName: nuitrackrig1:LeftHandRing4_end
+      position: {x: -0, y: 0.02226896, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandThumb1
+      parentName: nuitrackrig1:LeftHand
+      position: {x: 0.02867694, y: 0.03935804, z: 0.011884043}
+      rotation: {x: 0.024067387, y: 0.013591697, z: -0.3318428, w: 0.9429297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:LeftHandThumb2
+      parentName: nuitrackrig1:LeftHandThumb1
+      position: {x: 0.0040541445, y: 0.039895643, z: -0.0000007149577}
+      rotation: {x: 0.03440866, y: 0.0028113748, z: -0.027047485, w: 0.9990378}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandThumb3
+      parentName: nuitrackrig1:LeftHandThumb2
+      position: {x: 0.00037311553, y: 0.03599986, z: -0.0000002479553}
+      rotation: {x: -0.00019660592, y: 0.000013772631, z: -0.03925185, w: 0.9992294}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:LeftHandThumb4
+      parentName: nuitrackrig1:LeftHandThumb3
+      position: {x: -0.0044272062, y: 0.02979049, z: 0.00000004529953}
+      rotation: {x: -0.0000000037252894, y: -0.0000002468005, z: 0.00000005727634, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: nuitrackrig1:LeftHandThumb4_end
+      parentName: nuitrackrig1:LeftHandThumb4
+      position: {x: 0.000000014305114, y: 0.030117838, z: 0.00000004529953}
+      rotation: {x: -0.000000108033404, y: -0.00000053178513, z: -0.00000039674336, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: nuitrackrig1:LeftHandThumb4_end_end
+      parentName: nuitrackrig1:LeftHandThumb4_end
+      position: {x: -0, y: 0.03011771, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:Neck
+      parentName: nuitrackrig1:Spine2
+      position: {x: -0, y: 0.14662708, z: 0.0077360654}
+      rotation: {x: 0.08668197, y: 0, z: -0, w: 0.996236}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:Head
+      parentName: nuitrackrig1:Neck
+      position: {x: -0, y: 0.17626724, z: 0.019721553}
+      rotation: {x: 0.000000013617406, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:HeadTop_End
+      parentName: nuitrackrig1:Head
+      position: {x: 1.8189894e-14, y: 0.100933224, z: 0.06695861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:HeadTop_End_end
+      parentName: nuitrackrig1:HeadTop_End
+      position: {x: -0, y: 0.21885452, z: 0.0000000041962402}
+      rotation: {x: -0.012176468, y: 0, z: -0, w: 0.9999259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:HeadTop_End_end_end
+      parentName: nuitrackrig1:HeadTop_End_end
+      position: {x: -0, y: 0.21891944, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightShoulder
+      parentName: nuitrackrig1:Spine2
+      position: {x: -0.000000228882, y: 0.10359565, z: 0.00048555134}
+      rotation: {x: 0.5213396, y: 0.5023695, z: -0.4986373, w: 0.4766453}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: nuitrackrig1:RightArm
+      parentName: nuitrackrig1:RightShoulder
+      position: {x: -0.00000024434178, y: 0.18700942, z: -0.00000041037796}
+      rotation: {x: 0.007613941, y: 0.006348326, z: -0.031196233, w: 0.99946415}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: nuitrackrig1:RightForeArm
+      parentName: nuitrackrig1:RightArm
+      position: {x: 0.00000025510786, y: 0.2557107, z: 0.0000009578466}
+      rotation: {x: -0.04915197, y: -0.0028666037, z: 0.05815068, w: 0.99709296}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: nuitrackrig1:RightHand
+      parentName: nuitrackrig1:RightForeArm
+      position: {x: -0.00000072479247, y: 0.2340167, z: 0.0000008273125}
+      rotation: {x: 0.054874834, y: 0.109425135, z: 0.027996322, w: 0.99208426}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: nuitrackrig1:RightHandIndex1
+      parentName: nuitrackrig1:RightHand
+      position: {x: -0.036144067, y: 0.12346607, z: -0.00007840678}
+      rotation: {x: 0.044541046, y: 0.0013708016, z: 0.03073116, w: 0.99853384}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: nuitrackrig1:RightHandIndex2
+      parentName: nuitrackrig1:RightHandIndex1
+      position: {x: 0.0001187706, y: 0.031173438, z: -0.00000029504298}
+      rotation: {x: 0.041997276, y: 0.00000037099372, z: -0.00000017104861, w: 0.99911773}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandIndex3
+      parentName: nuitrackrig1:RightHandIndex2
+      position: {x: -0.000066185, y: 0.028560443, z: 0.00000022500753}
+      rotation: {x: -0.0015983284, y: 0.000000035390308, z: 0.00000034412417, w: 0.99999875}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: nuitrackrig1:RightHandIndex4
+      parentName: nuitrackrig1:RightHandIndex3
+      position: {x: -0.000052566527, y: 0.025346138, z: -0.00000007271767}
+      rotation: {x: 0.00000073434774, y: -0.00000001490116, z: 0.00000006193295, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: nuitrackrig1:RightHandIndex4_end
+      parentName: nuitrackrig1:RightHandIndex4
+      position: {x: -0, y: 0.025346044, z: -0.00000012874602}
+      rotation: {x: -0.000000372529, y: -0.00000009126961, z: -0.00000009080395, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandIndex4_end_end
+      parentName: nuitrackrig1:RightHandIndex4_end
+      position: {x: -0, y: 0.02534612, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandMiddle1
+      parentName: nuitrackrig1:RightHand
+      position: {x: -0.009223348, y: 0.12176384, z: -0.0022230393}
+      rotation: {x: 0.024431424, y: -0.00003479148, z: -0.0014184265, w: 0.9997005}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:RightHandMiddle2
+      parentName: nuitrackrig1:RightHandMiddle1
+      position: {x: 0.0001614821, y: 0.03479136, z: 0.00000065281984}
+      rotation: {x: 0.039992396, y: 0.0000066559687, z: -0.0019531036, w: 0.99919814}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:RightHandMiddle3
+      parentName: nuitrackrig1:RightHandMiddle2
+      position: {x: -0.00013664663, y: 0.032260675, z: -0.0000009878725}
+      rotation: {x: -0.027251657, y: -0.00000015465699, z: -0.00000006847765, w: 0.9996286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandMiddle4
+      parentName: nuitrackrig1:RightHandMiddle3
+      position: {x: -0.000024817586, y: 0.02927966, z: 0.00000015847385}
+      rotation: {x: 0.000000011175872, y: -0.000000020023435, z: -0.0000000023283064, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: nuitrackrig1:RightHandMiddle4_end
+      parentName: nuitrackrig1:RightHandMiddle4
+      position: {x: -0.000000012218952, y: 0.029279672, z: 0.0000000039860604}
+      rotation: {x: -0.000000025611369, y: 0.0000000013969839, z: -9.313225e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandMiddle4_end_end
+      parentName: nuitrackrig1:RightHandMiddle4_end
+      position: {x: -0, y: 0.029279629, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandPinky1
+      parentName: nuitrackrig1:RightHand
+      position: {x: 0.033203915, y: 0.111946255, z: -0.001379832}
+      rotation: {x: 0.04715114, y: -0.0060274815, z: -0.018433752, w: 0.99869955}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandPinky2
+      parentName: nuitrackrig1:RightHandPinky1
+      position: {x: 0.00008058071, y: 0.02640358, z: -0.000000410676}
+      rotation: {x: 0.040531088, y: 0.000004712957, z: -0.0009312699, w: 0.9991779}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandPinky3
+      parentName: nuitrackrig1:RightHandPinky2
+      position: {x: -0.000055732726, y: 0.021491071, z: 0.0000004529953}
+      rotation: {x: -0.019945094, y: 0.00000017209611, z: -0.0000003043702, w: 0.9998011}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: nuitrackrig1:RightHandPinky4
+      parentName: nuitrackrig1:RightHandPinky3
+      position: {x: -0.0000248003, y: 0.018884318, z: -0.00000002026558}
+      rotation: {x: -0.000000014319084, y: 0.000000057159916, z: 6.984918e-10, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: nuitrackrig1:RightHandPinky4_end
+      parentName: nuitrackrig1:RightHandPinky4
+      position: {x: -0.0000000023841857, y: 0.018884288, z: 0.00000019729137}
+      rotation: {x: 0.000000024447216, y: -0.0000000012805685, z: 2.3283062e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandPinky4_end_end
+      parentName: nuitrackrig1:RightHandPinky4_end
+      position: {x: -0, y: 0.018884297, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandRing1
+      parentName: nuitrackrig1:RightHand
+      position: {x: 0.012166323, y: 0.12282045, z: -0.0015098783}
+      rotation: {x: 0.047424097, y: -0.0038377037, z: -0.020404465, w: 0.9986591}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: nuitrackrig1:RightHandRing2
+      parentName: nuitrackrig1:RightHandRing1
+      position: {x: 0.00003706336, y: 0.028216412, z: -0.0000012508034}
+      rotation: {x: 0.04132497, y: -0.0000022700983, z: -0.00013597838, w: 0.99914575}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: nuitrackrig1:RightHandRing3
+      parentName: nuitrackrig1:RightHandRing2
+      position: {x: -0.00007789731, y: 0.026876884, z: 0.0000009807944}
+      rotation: {x: -0.04111414, y: 0.0000042116935, z: 0.00036035088, w: 0.9991544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandRing4
+      parentName: nuitrackrig1:RightHandRing3
+      position: {x: 0.00004087448, y: 0.023684178, z: -0.00000020474195}
+      rotation: {x: -0.0000012383243, y: 0.0000000059371814, z: -0.00000013574027, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: nuitrackrig1:RightHandRing4_end
+      parentName: nuitrackrig1:RightHandRing4
+      position: {x: 0.0000000023841857, y: 0.023684558, z: -0.00000016093254}
+      rotation: {x: -0.00000001654553, y: -3.4924602e-10, z: 4.6566134e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:RightHandRing4_end_end
+      parentName: nuitrackrig1:RightHandRing4_end
+      position: {x: -0, y: 0.02368457, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandThumb1
+      parentName: nuitrackrig1:RightHand
+      position: {x: -0.028850194, y: 0.040543154, z: 0.012119878}
+      rotation: {x: 0.027449973, y: -0.012847033, z: 0.32519782, w: 0.94516027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nuitrackrig1:RightHandThumb2
+      parentName: nuitrackrig1:RightHandThumb1
+      position: {x: -0.0042841146, y: 0.040748492, z: -0.0000007370114}
+      rotation: {x: 0.034231875, y: -0.003067602, z: 0.02879646, w: 0.99899423}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: nuitrackrig1:RightHandThumb3
+      parentName: nuitrackrig1:RightHandThumb2
+      position: {x: -0.00036495208, y: 0.035303574, z: 0.0000006794929}
+      rotation: {x: -0.019895721, y: -0.002315971, z: 0.052044738, w: 0.9984439}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: nuitrackrig1:RightHandThumb4
+      parentName: nuitrackrig1:RightHandThumb3
+      position: {x: 0.0046490165, y: 0.0287354, z: -0.00000029802322}
+      rotation: {x: -0.000000052154057, y: 0.00000012107192, z: 0.00000014668329, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: nuitrackrig1:RightHandThumb4_end
+      parentName: nuitrackrig1:RightHandThumb4
+      position: {x: -0.000000038146972, y: 0.029109003, z: -0.0000000667572}
+      rotation: {x: 0.000000018626455, y: -0.00000011548401, z: -0.000000064261265, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: nuitrackrig1:RightHandThumb4_end_end
+      parentName: nuitrackrig1:RightHandThumb4_end
+      position: {x: -0, y: 0.029109046, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clothes02
+      parentName: clothes02d(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hand
+      parentName: clothes02d(Clone)
+      position: {x: 0.000000003390014, y: 1.0200175e-15, z: -0.000000008540227}
+      rotation: {x: 0.00000014086254, y: -0.0000000012696546, z: -1.8917529e-10, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
