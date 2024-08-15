@@ -11,7 +11,9 @@ public static class PhotoHosting
         WWWForm form = new();
 
         form.AddBinaryData(filename, fileBinary);
-        form.AddField("expires", expires.ToString("yyyy-MM-ddThh:mm:ss.000Z"));
+        // form.AddField("expires", expires.ToString("yyyy-MM-ddThh:mm:ss.000Z"));
+        // form.AddField("id", "2ee47cd8-8c47-4779-bd34-4718443195d8");
+        // form.AddField("key", "7FUPNX3.YJKAA4M-GC8M2G6-KZDYRFS-AK7PM7J");
         form.AddField("maxDownloads", maxDownloads);
         form.AddField("autoDelete", autoDelete.ToString());
 
@@ -31,7 +33,7 @@ public static class PhotoHosting
                 var response = JsonConvert.DeserializeObject<PhotoHostingResponse>(json);
 
                 onPayloadSuccess?.Invoke(response);
-                Debug.Log($"Finished Uploading.");
+                Debug.Log($"Finished Uploading. {response.link}, {response.id}, {response.success}");
             }
         }
         
