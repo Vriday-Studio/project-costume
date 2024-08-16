@@ -12,7 +12,7 @@ public class NuitrackAvatarHandler : MonoBehaviour
     [SerializeField] private CanvasGroupElement doneMenu;
     [SerializeField] private CostumeController costumeController;
     [SerializeField] private float maxIdleTime = 60f;
-    [SerializeField] private float maxRestartTime = 108000f;
+    [SerializeField] private float maxRestartTime = 1800f;
 
     private float currentIdleTimer;
     private float currentRestartTimer;
