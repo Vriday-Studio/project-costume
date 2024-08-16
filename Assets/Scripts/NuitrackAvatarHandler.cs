@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NuitrackSDK;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NuitrackAvatarHandler : MonoBehaviour
 {
@@ -11,8 +12,10 @@ public class NuitrackAvatarHandler : MonoBehaviour
     [SerializeField] private CanvasGroupElement doneMenu;
     [SerializeField] private CostumeController costumeController;
     [SerializeField] private float maxIdleTime = 60f;
+    [SerializeField] private float maxRestartTime = 108000f;
 
     private float currentIdleTimer;
+    private float currentRestartTimer;
     private bool isIdle = true;
 
     // Start is called before the first frame update
@@ -36,6 +39,8 @@ public class NuitrackAvatarHandler : MonoBehaviour
 
         if(!isIdle && user == null) {
             currentIdleTimer += Time.deltaTime;
+            currentRestartTimer += Time.deltaTime;
+
             if(currentIdleTimer >= maxIdleTime) {
                 startMenu.EnableElement();
                 costumeMenu.DisableElement();
@@ -47,6 +52,11 @@ public class NuitrackAvatarHandler : MonoBehaviour
                 isIdle = true;
                 currentIdleTimer = 0f;
             }
+            
+            if(currentRestartTimer >= maxRestartTime) {
+                SceneManager.LoadScene(0);
+            }
+
         }
     }
 }
