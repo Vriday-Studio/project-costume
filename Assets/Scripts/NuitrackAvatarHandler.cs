@@ -8,6 +8,7 @@ public class NuitrackAvatarHandler : MonoBehaviour
 {
     [SerializeField] private CanvasGroupElement startMenu;
     [SerializeField] private CanvasGroupElement costumeMenu;
+    [SerializeField] private CanvasGroupElement photoResultMenu;
     [SerializeField] private CanvasGroupElement qrMenu;
     [SerializeField] private CanvasGroupElement doneMenu;
     [SerializeField] private CostumeController costumeController;
@@ -44,6 +45,7 @@ public class NuitrackAvatarHandler : MonoBehaviour
             if(currentIdleTimer >= maxIdleTime) {
                 startMenu.EnableElement();
                 costumeMenu.DisableElement();
+                photoResultMenu.DisableElement();
                 qrMenu.DisableElement();
                 doneMenu.DisableElement();
 
