@@ -31,6 +31,9 @@ public class PhotoController : MonoBehaviour
     private string filePath;
     private string fileName;
 
+    private Texture2D photoTexture = null;
+    private byte[] photoTextureByte = null;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -40,6 +43,10 @@ public class PhotoController : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()  {
         if(!isOnCountdown) return;
+
+        if(Input.GetKeyDown(KeyCode.W)) {
+            StartCoroutine(InitiateTakePicture());
+        }
 
         if(currentPhotoTimer <= 0f) {        
             StartCoroutine(InitiateTakePicture());
@@ -65,6 +72,8 @@ public class PhotoController : MonoBehaviour
     }
 
     public IEnumerator InitiateTakePicture() {
+        print("Taking screenshots...");
+
         isOnCountdown = false;
         countdownText.gameObject.SetActive(false);
         countdownPoseText.gameObject.SetActive(false);
@@ -84,10 +93,10 @@ public class PhotoController : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        var pngByte = File.ReadAllBytes(filePath);
-        Texture2D texture = new Texture2D(photoResultUI.texture.width, photoResultUI.texture.height);
-        texture.LoadImage(pngByte);
-        photoResultUI.texture = texture;
+        photoTextureByte = File.ReadAllBytes(filePath);
+        photoTexture = new Texture2D(photoResultUI.texture.width, photoResultUI.texture.height);
+        photoTexture.LoadImage(photoTextureByte);
+        photoResultUI.texture = photoTexture;
 
         foreach (var ui in photoUIToHide)
             ui.EnableElement();
@@ -98,6 +107,11 @@ public class PhotoController : MonoBehaviour
         currentPhotoTimer = photoTimer;
         
         isCapturingImage = false;
+    }
+
+    public void CleanCacheTexture() {
+        photoTexture = null;
+        photoTextureByte = null;
     }
 
     public void UploadPicture() {
@@ -141,6 +155,7 @@ public class PhotoController : MonoBehaviour
         Debug.Log($"Success callback {response.link}");
         
         uploadingText.text = "Foto berhasil diunggah!";
+        CleanCacheTexture();
         isUploading = false;
         SetQRCodeUI(response.link);
 
